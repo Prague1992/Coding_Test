@@ -6,8 +6,10 @@ import About from '../about'
 const App = () => (
   <div>
     <header>
-      <Link to="/">Home</Link>
-      <Link to="/about-us">About</Link>
+      <div style={{ height: '50px', margin: 'auto', textAlign: 'center', fontFamily: 'arial', fontSize: '22px' }}>
+        <Link to="/" style={{ textDecoration: 'none', marginRight: '20px', fontWeight: 'bold' }}>Test 1</Link>
+        <Link to="/about-us" style={{ textDecoration: 'none', marginRight: '20px', fontWeight: 'bold' }}>Test 2</Link>
+      </div>
     </header>
 
     <main>

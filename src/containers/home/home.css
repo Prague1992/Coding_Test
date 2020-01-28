@@ -1,0 +1,169 @@
+.mainDiv1 {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 1172px;
+  min-width: 320px;
+  margin: auto
+}
+
+.mainDiv2 {
+  width: 157px;
+  height: 28px;
+  margin: auto;
+  margin-bottom: 10px
+}
+
+.registerHeader {
+  height: 100px;
+  text-align: center;
+  padding-top: 35px;
+  font-size: 30px;
+  background-image: linear-gradient(-90deg, #483D8B, #87CEEB);
+  color: white;
+  letter-spacing: -0.7px;
+  line-height: 34px;
+  margin: '15px 0px';
+  font-family: arial;
+  font-weight: bold
+}
+
+.enterInfoLabel {
+  color: #565656;
+  font-size: 14px;
+  font-family: arial;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-top: 12px;
+  line-height: 16px;
+  letter-spacing: 0px;
+  margin: auto
+}
+
+.enterInfoGrid {
+  display: grid;
+  grid-template-rows: 60px 730px;
+}
+
+.fieldsDiv {
+  margin: 0px 15px 0px 15px;
+  background-color: #F5F5F5;
+  padding: 10px;
+  color: #565656;
+  font-size: 14px;
+  font-family: arial;
+  padding-left: 14px;
+  padding-right: 14px;
+  line-height: 16px;
+  letter-spacing: 0px
+}
+
+.textInput {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline - block;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-sizing: border-box
+}
+
+.footerBarDiv {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin: 15px;
+  grid-gap: 10px;
+  width: 100%
+}
+
+.footerBarGrid {
+  display: grid;
+  grid-template-columns: 50px auto;
+  margin: auto;
+  width: 350px
+}
+
+.checkboxLabels {
+  color: #757575;
+  opacity: 100%;
+  font-size: 14px;
+  font-family: arial;
+  line-height: 16px
+}
+
+@media all and (min-width: 768px) {
+  .mainDiv1 {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 1172px;
+    max-width: 1203px;
+    margin: auto
+  }
+
+  .mainDiv2 {
+    width: 182px;
+    height: 36px;
+    margin: auto
+  }
+
+  .registerHeader {
+    height: 179px;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 60px;
+    background-image: linear-gradient(-90deg, #483D8B, #87CEEB);
+    color: white;
+    letter-spacing: -0.7px;
+    line-height: 69px;
+    margin: '15px 0px';
+    font-family: arial;
+    font-weight: bold
+  }
+
+  .enterInfoLabel {
+    color: #565656;
+    font-size: 18px;
+    font-family: arial;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-top: 18px;
+    line-height: 22px;
+    letter-spacing: 0px;
+    margin: auto
+  }
+
+  .enterInfoGrid {
+    display: grid;
+    grid-template-rows: 80px 800px;
+  }
+
+  .fieldsDiv {
+    width: 556px;
+    height: 735px;
+    margin: auto;
+    background-color: #F5F5F5;
+    padding: 10px;
+    color: #565656;
+    font-size: 14px;
+    font-family: arial;
+    padding-left: 14px;
+    padding-right: 14px;
+    line-height: 16px;
+    letter-spacing: 0px
+  }
+
+  .textInput {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline - block;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-sizing: border-box
+  }
+
+  .footerBarGrid {
+    display: grid;
+    grid-template-columns: 50px auto;
+    margin: auto;
+    width: 400px
+  }
+
+}
